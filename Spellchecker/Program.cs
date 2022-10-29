@@ -13,7 +13,7 @@ namespace Spellchecker
     {
         static void Main(string[] args)
         {
-            Spellchecker.myDictionary dictionary = new Spellchecker.myDictionary();
+            myDictionary dictionary = new myDictionary();
            
             Console.WriteLine("Bitte geben Sie einen Satz ein!");
 
@@ -24,6 +24,7 @@ namespace Spellchecker
 
             foreach (var item in splittedInput)
             {
+
                 string itemRgx = rgx.Replace(item, "");
                 if (dictionary.Contains(itemRgx))
                 {

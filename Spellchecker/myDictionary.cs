@@ -20,7 +20,7 @@ namespace Spellchecker
         internal void Init()
         {
             string source = "C:\\Users\\reich\\source\\repos\\Spellchecker\\german.dic";
-            string[] lines = System.IO.File.ReadAllLines(source);
+            string[] lines = System.IO.File.ReadAllLines(source, Encoding.UTF8);
             foreach (string s in lines)
             {
                 myDict.Add(s);
