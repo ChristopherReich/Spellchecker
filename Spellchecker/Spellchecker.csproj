@@ -33,9 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="libArrayList">
+      <HintPath>..\..\TheHashtable\libHashtable\bin\Debug\libArrayList.dll</HintPath>
+    </Reference>
+    <Reference Include="libHashtable">
+      <HintPath>..\..\TheHashtable\libHashtable\bin\Debug\libHashtable.dll</HintPath>
+    </Reference>
     <Reference Include="libLinkedList, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TheLinkedList\libLinkedList\bin\Debug\libLinkedList.dll</HintPath>
+      <HintPath>..\..\TheHashtable\libHashtable\bin\Debug\libLinkedList.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

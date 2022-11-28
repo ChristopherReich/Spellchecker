@@ -1,4 +1,5 @@
-﻿using System;
+﻿using libHashtable;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mail;
@@ -14,7 +15,7 @@ namespace Spellchecker
         static void Main(string[] args)
         {
             myDictionary dictionary = new myDictionary();
-           
+
             Console.WriteLine("Bitte geben Sie einen Satz ein!");
 
             string userInput = Console.ReadLine();
